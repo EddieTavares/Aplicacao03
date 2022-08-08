@@ -1,0 +1,17 @@
+<table ngborder="1">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>nome</th>
+            <th>email</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let p of posts">
+            <td>{{p.id}}</td>
+            <td>{{p.nome}}</td>
+            <td>{{p.email}}</td>
+        </tr>
+    </tbody>
+</table>

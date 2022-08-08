@@ -1,0 +1,34 @@
+<form (ngSubmit)="handleSubmit()">
+
+    <input type="text"
+            placeholder="Nome"
+            name="name"
+            [(ngModel)]="objetoContato.nome">
+
+    <input type="email"
+            placeholder="Email"
+            name="email"
+            [(ngModel)]="objetoContato.email">
+
+    <button type="submit">Cadastrar</button> 
+</form>
+
+
+<table ngborder="1">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>nome</th>
+            <th>email</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let p of posts">
+            <td>{{p.id}}</td>
+            <td>{{p.nome}}</td>
+            <td>{{p.email}}</td>
+            <td><button (click)="handleDelete(p.id)">Excluir</button></td>            
+        </tr>
+    </tbody>
+</table>

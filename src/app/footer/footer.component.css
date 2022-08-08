@@ -1,0 +1,19 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a img{
+    width: 80%;
+    height: auto;
+}
+
+
+a img:hover{
+    opacity: 10%;
+}
+
+/* hr {
+	border-top: 3px solid rgb(253, 253, 253);
+} */

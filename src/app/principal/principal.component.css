@@ -1,0 +1,33 @@
+h2{
+    text-align: center;
+}
+
+p{
+    /* text-decoration: none;             */
+    font-size: 1em;
+    padding: 0 20px 0 20px;
+    color: var(red);
+    display: flex;
+}        
+
+img{
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 1px 18px #36855b;
+    transition-property: width, height;
+    transition: width 2s, heigth .3s;
+}  
+img:hover{
+    width: 73%;
+    height: auto;
+}  
+iframe{
+    width: 28em; 
+    height: 21em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}  
